@@ -1,0 +1,10 @@
+.mainM {
+  min-height: 546px;
+  /*border: 2px solid blueviolet;*/
+}
+
+@media (max-width: 600px) {
+  .mainM {
+    min-height: 0px;
+  }
+}

@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: var(--color-0);
+  gap: var(--gap-s);
+  height: 200px;
+}
+.socialContainer {
+  display: flex;
+  align-content: center;
+  gap: var(--gap-l);
+}
+
+.linkedinIcon {
+  width: 215px;
+  height: 55px;
+}
+.instaIcon {
+  width: 55px;
+  height: 55px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: small;
+  }
+  .linkedinIcon {
+    width: 115px;
+    height: 35px;
+  }
+  .instaIcon {
+    width: 35px;
+    height: 35px;
+  }
+}

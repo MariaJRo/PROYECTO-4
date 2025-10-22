@@ -1,0 +1,91 @@
+/*GLOBAL STYLES*/
+body {
+  font-family: 'Sora', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-6);
+}
+
+:root {
+  --color-0: rgb(255, 255, 255);
+  --color-1: black;
+  --color-2: #000332;
+  --color-3: #002e69;
+  --color-4: #004b8f;
+  --color-5: #0066a56e;
+  --color-6: #e5e8d8;
+  --color-7: #ffdb64;
+  --color-8: #d8e3e821;
+  --color-9: #20005c87;
+  --color-10: #d8e3e863;
+  /* #ffdc64; el amarillo que me gusta para los h1, por si los intentos de mejora no funcionan*/
+
+  --margin-xxs: 5px;
+  --margin-xs: 10px;
+  --margin-s: 20px;
+  --margin-m: 30px;
+  --margin-l: 40px;
+  --margin-xl: 50px;
+
+  --padding-xxs: 5px;
+  --padding-xs: 10px;
+  --padding-s: 20px;
+
+  --gap-xs: 10px;
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 40px;
+
+  --border-radius-xs: 10px;
+  --border-radius-s: 20px;
+  --border-radius-m: 30px;
+  --border-radius-circle: 100%;
+  --box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.401);
+}
+
+.flex-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+html,
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  background-color: var(--color-4);
+  background-image: url('/assets/backgroupdIMG.png');
+  row-gap: var(--gap-s);
+}
+
+main,
+.mainM {
+  min-height: auto;
+}
+
+footer {
+  min-height: 250px;
+}
